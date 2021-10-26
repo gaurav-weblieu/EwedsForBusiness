@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Feed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="3dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView_pro"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="35dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/imageone"
+                            />
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_toEndOf="@+id/cardView_pro"
+                        android:layout_width="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Christhna"
+                            android:textSize="16dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="27 FEB 21"
+                            android:textSize="12sp"
+                            />
+
+                    </LinearLayout>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_centerVertical="true"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        app:cardCornerRadius="8dp"
+                        android:layout_alignParentEnd="true"
+                        app:cardBackgroundColor="@color/light_blue_900">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PIN"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            />
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="Lokhie and his team work good and greate wirk , i am vcery happy with their services , it is worth of monry , thry handle the progrram very well,i am vcery happy with their services , it is worth of monry , thry handle the progrram very well."
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="10sp"
+                    android:text="REPLY"
+                    android:textColor="@color/light_blue_900"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="3dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView_pro"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="35dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/imageone"
+                            />
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_toEndOf="@+id/cardView_pro"
+                        android:layout_width="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Christhna"
+                            android:textSize="16dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="27 FEB 21"
+                            android:textSize="12sp"
+                            />
+
+                    </LinearLayout>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_centerVertical="true"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        app:cardCornerRadius="8dp"
+                        android:layout_alignParentEnd="true"
+                        app:cardBackgroundColor="@color/light_blue_900">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PIN"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            />
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="Lokhie and his team work good and greate wirk , i am vcery happy with their services , it is worth of monry , thry handle the progrram very well,i am vcery happy with their services , it is worth of monry , thry handle the progrram very well."
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="10sp"
+                    android:text="REPLY"
+                    android:textColor="@color/light_blue_900"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="3dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView_pro"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="35dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/imageone"
+                            />
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_toEndOf="@+id/cardView_pro"
+                        android:layout_width="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Christhna"
+                            android:textSize="16dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_round_star_24"
+                                />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="27 FEB 21"
+                            android:textSize="12sp"
+                            />
+
+                    </LinearLayout>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_centerVertical="true"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        app:cardCornerRadius="8dp"
+                        android:layout_alignParentEnd="true"
+                        app:cardBackgroundColor="@color/light_blue_900">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PIN"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            />
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:text="Lokhie and his team work good and greate wirk , i am vcery happy with their services , it is worth of monry , thry handle the progrram very well,i am vcery happy with their services , it is worth of monry , thry handle the progrram very well."
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="10sp"
+                    android:text="REPLY"
+                    android:textColor="@color/light_blue_900"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</FrameLayout>
