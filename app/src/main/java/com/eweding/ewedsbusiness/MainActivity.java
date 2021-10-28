@@ -79,6 +79,34 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+               int pos= tab.getPosition();
+               switch (pos){
+                   case 0:
+                       toolbar.setTitle("Lead");
+                       break;
+                   case 1:
+                       toolbar.setTitle("Gallery");
+                       break;
+                   case 2:
+                       toolbar.setTitle("Review");
+                       break;
+               }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
     }
     private void setupTabIcons() {
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
