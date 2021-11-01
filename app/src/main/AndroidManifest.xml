@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EwedsBusiness">
         <activity
+            android:name=".AddImageToAlbum"
+            android:exported="false"
+            android:label="@string/title_activity_add_image_to_album"
+            android:theme="@style/Theme.EwedsBusiness.NoActionBar" />
+        <activity
             android:name=".PublicInfromation"
             android:exported="true" />
         <activity

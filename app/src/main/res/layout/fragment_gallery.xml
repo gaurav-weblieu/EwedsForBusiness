@@ -44,6 +44,7 @@
 
 
                     <ImageView
+                        android:id="@+id/imageView_add_al"
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:src="@drawable/ic_round_add_24"
@@ -117,6 +118,7 @@
                     </LinearLayout>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView_upload"
                         android:layout_width="50dp"
                         android:layout_margin="10dp"
                         app:cardCornerRadius="25dp"
